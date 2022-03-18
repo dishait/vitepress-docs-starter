@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"allowJs": true,
+		"target": "ES2017",
+		"declaration": true,
+		"skipLibCheck": true,
+		"lib": ["DOM", "ESNext"],
+		"moduleResolution": "node"
+	},
+	"include": ["docs/.vitepress/**/*.ts"],
+	"exclude": ["node_modules", "dist", ".cache", ".temp"]
+}
