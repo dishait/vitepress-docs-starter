@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.svg
 heroText: HeroText
 tagline: This is the Tagline
-actionText: Get Started
+actionText: Get Started 👉
 actionLink: /guide/
 features:
   - title: 🦖 First
