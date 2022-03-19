@@ -26,6 +26,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
+    "@vueuse/core": "^8.1.2",
     "unocss": "^0.29.3",
     "vitepress": "^0.22.3"
   }

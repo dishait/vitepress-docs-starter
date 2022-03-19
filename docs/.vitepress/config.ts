@@ -1,5 +1,6 @@
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vitepress'
+import AutoImport from 'unplugin-auto-import/vite'
 
 export default defineConfig({
 	lang: 'zh-CN',
