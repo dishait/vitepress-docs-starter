@@ -1,13 +1,10 @@
 ---
 home: true
+heroImage: /logo.svg
 heroText: HeroText
 tagline: This is the Tagline
-actions:
-  - text: Get Started 👉
-    link: /guide/
-  - text: install
-    link: /guide/
-    type: secondary
+actionText: Get Started
+actionLink: /guide/
 features:
   - title: 🦖 First
     details: TODO...

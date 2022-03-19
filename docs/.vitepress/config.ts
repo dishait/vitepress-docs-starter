@@ -1,12 +1,14 @@
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vitepress'
-import AutoImport from 'unplugin-auto-import/vite'
+import Inspect from 'vite-plugin-inspect'
 
 export default defineConfig({
 	lang: 'zh-CN',
 	title: 'Hero',
 	description: '基于 vitepress 的文档模板',
+	head: [['link', { rel: 'icon', href: '/logo.svg' }]],
 	themeConfig: {
+		logo: 'logo.svg',
 		lastUpdated: true,
 		nav: [
 			{
@@ -29,6 +31,9 @@ export default defineConfig({
 	},
 	vite: {
 		plugins: [
+			Inspect({
+				enabled: false
+			}),
 			Unocss({
 				mode: 'per-module'
 			})
