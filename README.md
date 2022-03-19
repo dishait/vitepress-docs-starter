@@ -14,7 +14,9 @@
 
 ## 特性 🦕
 
-TODO
+- [vueuse](https://vueuse.org/) 支持
+- [inspect](https://github.com/antfu/vite-plugin-inspect) 调试支持
+- [unocss](https://github.com/unocss/unocss) 原子库支持
 
 
 <br />
