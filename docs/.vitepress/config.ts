@@ -1,3 +1,4 @@
+import Unocss from 'unocss/vite'
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
@@ -26,6 +27,10 @@ export default defineConfig({
 		]
 	},
 	vite: {
-		plugins: []
+		plugins: [
+			Unocss({
+				mode: 'per-module'
+			})
+		]
 	}
 })
