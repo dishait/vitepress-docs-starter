@@ -1,4 +1,4 @@
-# vitepress-docs-template
+# vitepress-docs-starter
 
 基于 `vitepress` 的文档模板 👍
 
