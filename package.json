@@ -1,10 +1,11 @@
 {
-  "version": "1.0.0",
-  "name": "vitepress-docs-template",
+  "version": "0.0.0",
+  "name": "vitepress-docs-starter",
   "description": "vitepress 的文档模板",
   "keywords": [
     "docs",
     "unocss",
+    "starter",
     "template",
     "vitepress"
   ],
@@ -14,22 +15,20 @@
     "url": "https://github.com/markthree"
   },
   "license": "MIT",
-  "repository": "https://github.com/dishait/vitepress-docs-template",
+  "repository": "https://github.com/dishait/vitepress-docs-starter",
   "bugs": {
     "email": "1801982702@qq.com",
-    "url": "https://github.com/dishait/vitepress-docs-template/issues"
+    "url": "https://github.com/dishait/vitepress-docs-starter/issues"
   },
   "private": false,
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "@types/node": "^17.0.21",
-    "@vueuse/core": "^8.1.2",
-    "unocss": "^0.29.3",
-    "vite-plugin-inspect": "^0.4.3",
-    "vitepress": "^0.22.3"
+    "@types/node": "^18.11.11",
+    "@vueuse/core": "^9.6.0",
+    "vitepress": "^1.0.0-alpha.30"
   }
 }

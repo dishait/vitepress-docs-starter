@@ -1,42 +1,31 @@
-import Unocss from 'unocss/vite'
 import { defineConfig } from 'vitepress'
-import Inspect from 'vite-plugin-inspect'
 
 export default defineConfig({
 	lang: 'zh-CN',
 	title: 'Hero',
 	description: '基于 vitepress 的文档模板',
-	head: [['link', { rel: 'icon', href: '/logo.svg' }]],
+	head: [['link', { rel: 'icon', href: '/favicon.png' }]],
 	themeConfig: {
 		logo: 'logo.svg',
-		lastUpdated: true,
+		footer: {
+			message: 'Released under the MIT License.',
+			copyright: 'Copyright © 2022 markthree'
+		},
 		nav: [
 			{
-				text: '指南',
+				text: 'Guide',
 				link: '/guide/'
 			},
 			{
-				text: '关于',
+				text: 'About',
 				link: '/about/'
-			},
+			}
+		],
+		socialLinks: [
 			{
-				text: 'Gitee',
-				link: 'https://github.com/name/repo'
-			},
-			{
-				text: 'GitHub',
+				icon: 'github',
 				link: 'https://github.com/name/repo'
 			}
-		]
-	},
-	vite: {
-		plugins: [
-			Inspect({
-				enabled: false
-			}),
-			Unocss({
-				mode: 'per-module'
-			})
 		]
 	}
 })
